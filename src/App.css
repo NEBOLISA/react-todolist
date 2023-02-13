@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  color: white;
+}
+body{
+ 
+  background-color: rgb(33, 53, 82);
+}
+.content {
+  max-width: 80%;
+  margin: auto;
+}
+.top-content{
+  max-width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 82% 7% 7%;
+  gap: 2%;
+  margin-bottom: 15px;
+ 
+}
+.form{
+  border-radius: 4px;
+  width: 100%;
+  height: 35px;
+  padding: 0;
+  border: 0;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.form:focus{
+  outline: none;
+}
+.add-task{
+  border-radius: 4px;
+  color: white;
+  font-weight: 300;
+  background-color: rgb(9, 224, 224);
+  padding: 0;
+  padding-left: 9px;
+  padding-right: 9px;
+  border: 0;
+  height: 35px;
+}
+.tasks{
+  background-color: rgb(22, 34, 53);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: 22px;
+  
+  position: relative;
+ 
+ 
+}
+.tasks .done{
+
+}
+.tasks .undone{
+flex: 1;
+}
+
+.tasks .done .taskText{
+  text-decoration: line-through;
+  opacity: 0.3;
+  flex:1;
+}
+.tasks div{
+  display: flex;
+  align-items: center;
+
+
+}
+.taskNumber {
+  margin-left: 8px;
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.taskText{
+  flex: 1;
+}
+.iconsWrap{
+  position: absolute;
+  right: 20px;
+  top: 27%;
+  width: auto;
+  height: 20px;
+ 
+}
+.iconsWrap span{
+  padding-left: 20px;
+  cursor: pointer;
+  color: aqua;
+}
+.iconsWrap span:hover{
+  color: white;
+}
+.iconsWrap span .font{
+  width: 18px;
+}
